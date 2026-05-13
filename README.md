@@ -24,15 +24,6 @@ Python-приложение, которое превращает ваши рук
 
 ---
 
-## 📊 Моя статистика
-
-<p align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=sannchar&show_icons=true&theme=radical&hide_border=true" alt="sannchar's GitHub stats" />
-</p>
-
----
-
 ## 📫 Как со мной связаться
 
 
