@@ -1,7 +1,7 @@
 # Привет, я SaNNcha! 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF5&center=true&vCenter=true&width=435&lines=Hello+World;Computer+Vision+Enthusiast;Building+cool+things" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF5&center=true&vCenter=true&width=435&lines=Hello+World" alt="Typing SVG" />
 </p>
 
 ---
