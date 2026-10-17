@@ -12,12 +12,6 @@
   <img src="skills.svg" alt="Skills without limits" width="720" />
 </p>
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,opencv,git,github,vscode" />
-  </a>
-</p>
-
 ---
 
 ## 📫 How to reach me
