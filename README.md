@@ -1,7 +1,7 @@
 # Hi, I'm SaNNcha! 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF5&center=true&vCenter=true&width=435&lines=Hello+World" alt="Typing SVG" />
+  <img src="malenia.gif" alt="Malenia, Blade of Miquella" width="720" />
 </p>
 
 ---
