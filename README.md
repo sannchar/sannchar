@@ -6,7 +6,11 @@
 
 ---
 
-## 🛠️ My Skills and Tools
+## ♾️ My Skills and Tools
+
+<p align="center">
+  <img src="skills.svg" alt="Skills without limits" width="720" />
+</p>
 
 <p align="center">
   <a href="https://skillicons.dev">
