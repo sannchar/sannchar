@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 110" width="820" height="110" role="img" aria-label="Hi, I'm SaNNcha!">
+  <defs>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#36BCF5"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#f43f9e"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="lineL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#36BCF5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#36BCF5"/>
+    </linearGradient>
+    <linearGradient id="lineR" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f43f9e"/>
+      <stop offset="1" stop-color="#f43f9e" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <line x1="24" y1="55.0" x2="143.2724609375" y2="55.0" stroke="url(#lineL)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="676.7275390625" y1="55.0" x2="796" y2="55.0" stroke="url(#lineR)" stroke-width="2" stroke-linecap="round"/>
+  <rect x="139.2724609375" y="51.0" width="8" height="8" transform="rotate(45 143.2724609375 55.0)" fill="#36BCF5" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="672.7275390625" y="51.0" width="8" height="8" transform="rotate(45 676.7275390625 55.0)" fill="#f43f9e" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M192.61 73V37.5H199.3V73ZM173.18 73V37.5H179.87V73ZM176.28 58.62V52.17H196.96V58.62ZM219.56 37.5V73H212.63V37.5ZM231.3 81.45V66.31H237.99V75.05ZM276.08 37.5V73H269.15V37.5ZM286.6 49.95V37.5H293.29V49.95ZM319.87 61.43 326.63 37.5H335.45V73H329.37V45.44L329.61 47L322.83 69.04H316.92L310.13 47.49L310.38 45.44V73H304.3V37.5H313.11ZM379.85 73.37Q377.31 73.37 374.88 72.85Q372.45 72.34 370.32 71.35Q368.2 70.36 366.49 68.97L369.59 63.45Q371.64 65.14 374.33 66.05Q377.01 66.97 379.85 66.97Q383.12 66.97 384.92 65.86Q386.73 64.75 386.73 62.72V62.7Q386.73 61.16 385.83 60.34Q384.92 59.52 383.45 59.13Q381.97 58.74 380.24 58.47Q378.16 58.16 376.04 57.68Q373.91 57.2 372.13 56.17Q370.35 55.13 369.26 53.2Q368.18 51.27 368.18 48.05V48.02Q368.18 42.82 371.59 39.98Q375.01 37.14 381.26 37.14Q384.14 37.14 387.12 38.1Q390.1 39.06 392.66 40.85L389.83 46.51Q387.78 45.07 385.55 44.3Q383.31 43.53 381.26 43.53Q378.19 43.53 376.5 44.55Q374.82 45.56 374.82 47.39V47.41Q374.82 49.12 375.82 50Q376.82 50.88 378.43 51.31Q380.04 51.74 381.9 52.1Q383.95 52.49 385.97 53.07Q388 53.64 389.68 54.71Q391.37 55.79 392.37 57.67Q393.37 59.55 393.37 62.55V62.6Q393.37 67.73 389.83 70.55Q386.29 73.37 379.85 73.37ZM402.06 73 415.63 37.5H419.88L433.45 73H426.25L417.75 48.76L409.26 73ZM408.58 67.31V60.87H427.25V67.31ZM443.85 72.98V37.5H452.03L465.23 64.7L464.65 65.33V37.5H471.04V72.98H462.82L449.66 46.19L450.24 45.56V72.98ZM484.86 72.98V37.5H493.04L506.24 64.7L505.66 65.33V37.5H512.05V72.98H503.83L490.67 46.19L491.25 45.56V72.98ZM537.98 73.37Q533.9 73.37 531.03 71.82Q528.16 70.27 526.65 67.3Q525.13 64.33 525.13 60.13V50.39Q525.13 46.17 526.65 43.21Q528.16 40.26 531.03 38.7Q533.9 37.14 537.98 37.14Q541.35 37.14 543.97 38.58Q546.59 40.02 548.32 42.75Q550.04 45.49 550.7 49.39H543.76Q543.37 47.61 542.55 46.38Q541.74 45.14 540.58 44.48Q539.42 43.83 537.98 43.83Q535.17 43.83 533.62 45.55Q532.07 47.27 532.07 50.39V60.13Q532.07 63.26 533.62 64.97Q535.17 66.68 537.98 66.68Q540.17 66.68 541.69 65.22Q543.2 63.77 543.76 61.11H550.7Q550.01 64.99 548.29 67.74Q546.57 70.49 543.96 71.93Q541.35 73.37 537.98 73.37ZM582.23 73V37.5H588.92V73ZM562.8 73V37.5H569.49V73ZM565.9 58.62V52.17H586.58V58.62ZM599.32 73 612.89 37.5H617.14L630.71 73H623.51L615.02 48.76L606.52 73ZM605.84 67.31V60.87H624.51V67.31ZM640.62 62.43V37.5H647.31V62.43ZM640.62 73V66.31H647.31V73Z" fill="url(#neon)" filter="url(#glow)"/>
+</svg>
